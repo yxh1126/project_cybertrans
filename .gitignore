@@ -3,5 +3,5 @@
 *.pot
 *.pyc
 __pycache__
+.idea
 db.sqlite3
-
