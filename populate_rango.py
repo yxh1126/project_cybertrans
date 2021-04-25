@@ -1,12 +1,10 @@
 import os
-import django
-from rango.models import Category, Page
-from django.conf import settings
-
 os.environ.setdefault('DJANGO_SETTINGS_MODULE',
                       'project_cybertrans.settings')
-settings.configure()
+
+import django
 django.setup()
+from rango.models import Category, Page
 
 
 def populate():
